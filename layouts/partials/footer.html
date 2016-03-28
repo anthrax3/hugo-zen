@@ -2,6 +2,7 @@
 	<footer role="contentinfo">
 		<div class="hr"></div>
 		<div class="footer-link">
+    	{{ $isHomePage := eq .Title .Site.Title }}{{ if eq $isHomePage false }}<a href="/">Home</a><br />{{ end }}
 			{{ with .Site.Params.email }}<a href="mailto:{{ . }}" target="_blank">Email</a>{{ end }}
 			{{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank">Twitter</a>{{ end }}
 			{{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank">Facebook</a>{{ end }}
