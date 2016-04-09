@@ -1,3 +1,9 @@
+# ring0.lolg Hugo Zen
+
+This is my adaptation of Hugo Zen as used for [ring0.lol](https://ring0.lolg)
+
+Original theme's README.md as follows:
+
 # Hugo Zen
 
 Hugo Zen is a minimal hugo theme with [Skeleton](https://github.com/dhg/Skeleton/) and has ~100 lines of custom CSS.
