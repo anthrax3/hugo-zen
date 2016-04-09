@@ -7,10 +7,13 @@
 			{{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank"><img alt="{{ . }}" src="/images/twitter_logo.png"></a>{{ end }}
 			{{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank">Facebook</a>{{ end }}
 			{{ with .Site.Params.github }}<a href="{{ . }}" target="_blank"><img alt="{{ . }}" src="/images/github_logo.png"></a>{{ end }}
+			{{ with .Site.Params.pgp_keybase }}<a href="{{ . }}" target="_blank"><img alt="{{ . }}" src="/images/gpg_logo.png" {{ with $.Site.Params.pgp_fingerprint }}title="{{ . }}"{{ end }}></a>{{ end }}
 		</div>
-    <div class="copyright"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons BY-NC 4.0" style="border-width:0" src="/images/cc_by_nc_4_80x15.png" /></a></div>
-    <div class="copyright">Images and other content may be © respective owners.</div>
-    <div class="copyright">I wouldn't know. I'm a website, not a lawyer.</div>
+    <div class="copyright">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons BY-NC 4.0" style="border-width:0" src="/images/cc_by_nc_4_80x15.png" /></a><br>
+      Images and other content may be © respective owners.<br>
+      I wouldn't know. I'm a website, not a lawyer.<br>
+  </div>
 	</footer>
 
 </div>
