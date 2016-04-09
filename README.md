@@ -1,6 +1,6 @@
-# ring0.lolg Hugo Zen
+# ring0.lol Hugo Zen
 
-This is my adaptation of Hugo Zen as used for [ring0.lol](https://ring0.lolg)
+This is my adaptation of Hugo Zen as used for [ring0.lol](https://ring0.lol)
 
 Original theme's README.md as follows:
 
