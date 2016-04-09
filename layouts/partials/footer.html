@@ -2,14 +2,14 @@
 	<footer role="contentinfo">
 		<div class="hr"></div>
 		<div class="footer-link">
-    	{{ $isHomePage := eq .Title .Site.Title }}{{ if eq $isHomePage false }}<a href="/">Home</a><br />{{ end }}
+			{{ $isHomePage := eq .Title .Site.Title }}{{ if eq $isHomePage false }}<a href="/">Home</a><br />{{ end }}
 			{{ with .Site.Params.email }}<a href="mailto:{{ . }}" target="_blank">Email</a>{{ end }}
 			{{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank"><img alt="{{ . }}" src="/images/twitter_logo.png"></a>{{ end }}
 			{{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank">Facebook</a>{{ end }}
 			{{ with .Site.Params.github }}<a href="{{ . }}" target="_blank"><img alt="{{ . }}" src="/images/github_logo.png"></a>{{ end }}
 			{{ with .Site.Params.pgp_keybase }}<a href="{{ . }}" target="_blank"><img alt="{{ . }}" src="/images/gpg_logo.png" {{ with $.Site.Params.pgp_fingerprint }}title="{{ . }}"{{ end }}></a>{{ end }}
 		</div>
-    <div class="copyright">{{ .Site.Copyright | safeHTML }}</div>
+		<div class="copyright">{{ .Site.Copyright | safeHTML }}</div>
 	</footer>
 
 </div>

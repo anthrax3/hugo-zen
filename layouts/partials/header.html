@@ -40,6 +40,6 @@
 			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60"></a>
 		</div>
 		<h1 class="site-title">{{ .Site.Title }}</h1>
-    {{ if eq $isHomePage true }}<p>{{ .Site.Params.subtitle }}</p>{{ end }}
-    {{ if eq $isHomePage false }}<p><a href="/">Home</a></p>{{ end }}
+		{{ if eq $isHomePage true }}<p>{{ .Site.Params.subtitle }}</p>{{ end }}
+		{{ if eq $isHomePage false }}<p><a href="/">Home</a></p>{{ end }}
 	</header>
