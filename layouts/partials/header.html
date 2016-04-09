@@ -37,7 +37,7 @@
 
 	<header role="banner">
 		<div class="header-logo">
-			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60"></a>
+			<a href="/"><img alt="Site Logo" src="{{ .Site.Params.logo }}" width="60" height="60"></a>
 		</div>
 		<h1 class="site-title">{{ .Site.Title }}</h1>
 		{{ if eq $isHomePage true }}<p>{{ .Site.Params.subtitle }}</p>{{ end }}
